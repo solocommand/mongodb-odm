@@ -22,7 +22,7 @@
         "doctrine/cache": "~1.0",
         "doctrine/inflector": "~1.0",
         "doctrine/instantiator": "~1.0.1",
-        "doctrine/mongodb": "~1.2"
+        "doctrine/mongodb": "dev-mongodb"
     },
     "require-dev": {
         "symfony/yaml": "~2.3|~3.0"
@@ -35,7 +35,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.0.x-dev",
+	    "dev-mongodb": "mongodb"
         }
     }
 }
